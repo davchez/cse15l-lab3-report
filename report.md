@@ -1,3 +1,4 @@
+![Image](screenshot1.jpg)
 # CSE 15L Winter 2023: Lab Report 3
 
 ## grep: Git Bash Command report
