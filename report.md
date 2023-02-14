@@ -14,8 +14,7 @@ Used find to first redirect all titles of files into a single text file called "
 ![Image](screenshot3.jpg)
   
 In Example B, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Bahamas."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Bahamas".
-
-
+<br>
 ### Recursive search: grep -R "(substring)" (directory)
   
 #### Example C
@@ -27,7 +26,7 @@ In Example B, grep was used to parse through every single line in the results.tx
 ![Image](screenshot5.jpg)
 
 For Example D, the substring "Italy" was recursively searched for in all files in written_2/.  As seen in the terminal, the output returned a large amount of files which had lines containing the substring "Italy".  On the left side is the title of the file which contained the substring "Italy"; on the right side of the title is the specific string containing "Italy".  
-  
+<br>
 ### Simplifying the results: grep -l "(substring") (directory)
   
 #### Example E
@@ -39,7 +38,7 @@ The -l extension to the grep command allows for a simplification of the results 
 ![Image](screenshot7.jpg)
   
 The -l extension to the grep command allows for a simplification of the results produced by any grep search.  This Example F employs the same -R -l combination as Example E, just using a more specific substring to return two files containing the instance(s) of "The United States".  For smaller and more niche results like this, it might be redundant to use the -l extension for so few files.  However, it still produces the exact first instance of the substring: so it may prove to be useful in the end for certain uses.
-  
+<br>
 ### Deep recursive search: grep -Rw "(substring)" (directory)
   
 #### Example G
@@ -52,5 +51,5 @@ The -l extension to the grep command allows for a simplification of the results 
 ![Image](screenshot10.jpg)
   
 Just to utilize every single grep command extension mentioned in this lab report, the -Rw extension is supported by the following extensions: -l and >.  For Example H, -l simplified the results of -Rw by only returning the titles of the files which contain the substring instance.  However, note that, for example, if a file name is returned multiple times, it is because the instance appeared in multiple, separate lines in that specific file.  The ">" extension redirected the output into a text file called "grep-results.txt", of which the contents are shown in the last screenshot.
-
+<br>
 David Sanchez / d4sanchez@ucsd.edu
