@@ -1,16 +1,13 @@
-![Image](screenshot1.jpg)
 # CSE 15L Winter 2023: Lab Report 3
 
 ## grep: Git Bash Command report
 
 > Output redirection: grep "(substring)" (old .txt file) > (new .txt file)
 
-  <br>
   Example A
   ![Image](screenshot1.jpg)
   ![Image](screenshot2.jpg)
-  <br>
-  
+
   Used find to first redirect all titles of files into a single text file called "results.txt".  In Example  A, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Italy."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Italy".
   
   <br>
