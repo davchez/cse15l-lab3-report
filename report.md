@@ -15,6 +15,7 @@ Used find to first redirect all titles of files into a single text file called "
   
 In Example B, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Bahamas."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Bahamas".
 
+
 ### Recursive search: grep -R "(substring)" (directory)
   
 #### Example C
