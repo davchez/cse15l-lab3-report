@@ -2,7 +2,7 @@
 
 ## grep: Git Bash Command report
 
-> Output redirection: grep "<substring>" <old .txt file> > <new .txt file>
+> Output redirection: grep "(substring)" (old .txt file) > (new .txt file)
 
   <br>
   Example A
@@ -21,7 +21,7 @@
   
 <br>
 
-> Recursive search: grep -R "<substring>" <directory>
+> Recursive search: grep -R "(substring)" (directory)
   
   <br>
   Example C
@@ -39,7 +39,7 @@
   
   <br>
   
-> Simplifying the results: grep -l "<substring"> <directory>
+> Simplifying the results: grep -l "(substring") (directory)
   
   <br>
   Example E
@@ -57,7 +57,7 @@
   
   <br>
   
-> Deep recursive search: grep -Rw "<substring"> <directory>
+> Deep recursive search: grep -Rw "(substring)" (directory)
   
   <br>
   Example G
