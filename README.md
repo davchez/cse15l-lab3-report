@@ -55,7 +55,7 @@
 ![Image](screenshot9.jpg)
 ![Image](screenshot10.jpg)
   
-Just to utilize every single grep command extension mentioned in this lab report, the -Rw extension is supported by the following extensions: -l and >.  For Example H, -l simplified the results of -Rw by only returning the titles of the files which contain the substring instance.  However, note that, for example, if a file name is returned multiple times, it is because the instance appeared in multiple, separate lines in that specific file.  The ">" extension redirected the output into a text file called "grep-results.txt", of which the contents are shown in the last screenshot.
+[Additional grep documentation on -Rw](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Just to utilize every single grep command extension mentioned in this lab report, the -Rw extension is supported by the following extensions: -l and >.  For Example H, -l simplified the results of -Rw by only returning the titles of the files which contain the substring instance.  However, note that, for example, if a file name is returned multiple times, it is because the instance appeared in multiple, separate lines in that specific file.  The ">" extension redirected the output into a text file called "grep-results.txt", of which the contents are shown in the last screenshot.
 
 <br>
 
