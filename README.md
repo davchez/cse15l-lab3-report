@@ -7,7 +7,7 @@
 #### Example A
 ![Image](labreplacement.png)
 
-[Additional grep documentation on -E -w](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Used to find all instances of a substring in a given text file.  For Example A, the substring 
+[Additional grep documentation on -E -w](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Used to find all instances of a substring in a given text file.  For Example A, the substring "Oahu" was searched for in the specific text file 
   
 #### Example B
 ![Image](labreplacement2.png)
