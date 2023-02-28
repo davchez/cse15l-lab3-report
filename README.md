@@ -8,7 +8,7 @@
 ![Image](screenshot1.jpg)
 ![Image](screenshot2.jpg)
 
-Used find to first redirect all titles of files into a single text file called "results.txt".  In Example  A, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Italy."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Italy".
+[Additional grep documentation on -R](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Used find to first redirect all titles of files into a single text file called "results.txt".  In Example  A, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Italy."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Italy".
   
 #### Example B
 ![Image](screenshot3.jpg)
@@ -22,7 +22,7 @@ In Example B, grep was used to parse through every single line in the results.tx
 #### Example C
 ![Image](screenshot4.jpg)
   
-(https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen.) The -R extension to the grep command employs a recursive search through the contents of every single file contained within the written_2/ directory.  For Example C, the very-specific substring "Bailando con el Diablo" was recursively searched for in all files in written_2/.  As seen in the terminal, the output returned the two files in written_2/ and the specific lines which the substring was contained/mentioned.
+[Additional grep documentation on -R](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen). The -R extension to the grep command employs a recursive search through the contents of every single file contained within the written_2/ directory.  For Example C, the very-specific substring "Bailando con el Diablo" was recursively searched for in all files in written_2/.  As seen in the terminal, the output returned the two files in written_2/ and the specific lines which the substring was contained/mentioned.
 
 #### Example D
 ![Image](screenshot5.jpg)
@@ -50,7 +50,7 @@ The -l extension to the grep command allows for a simplification of the results 
 #### Example G
 ![Image](screenshot8.jpg)
   
-(https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen.) The -Rw extension to the grep command is an even deeper recursive search for a certain substring.  Not only does it return the files which contain the lines with the searched substring, it returns every single instance of the substring throughout the entire directory.  For example, if one file has more than one instance of the substring "Italy", it will return the title of that file twice, but appended to the right will be the two separate line instances in which the substring appeared.  
+[Additional grep documentation on -Rw](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  The -Rw extension to the grep command is an even deeper recursive search for a certain substring.  Not only does it return the files which contain the lines with the searched substring, it returns every single instance of the substring throughout the entire directory.  For example, if one file has more than one instance of the substring "Italy", it will return the title of that file twice, but appended to the right will be the two separate line instances in which the substring appeared.  
   
 #### Example H
 ![Image](screenshot9.jpg)
