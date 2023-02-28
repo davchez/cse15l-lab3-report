@@ -7,12 +7,12 @@
 #### Example A
 ![Image](labreplacement.png)
 
-[Additional grep documentation on -E -w](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Used to find all instances of a substring in a given text file.  For Example A, the substring "Oahu" was searched for in the specific text file 
+[Additional grep documentation on -E -w](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  grep -E -w was used to find all instances of a substring in a given text file.  For Example A, the substring "Oahu" was searched for in the specific text file HandRHawaii.txt.  Produced from the search was each line that had an instance of the substring in the file of interest, wherein the output was redirected to a file called "grep-results.txt".
   
 #### Example B
 ![Image](labreplacement2.png)
   
-In Example B, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Bahamas."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Bahamas".
+grep -E -w was used to find all instances of a substring in a given text file.  For Example B, the substring "Oahu" was searched for in the specific text file HandRHawaii.txt.  Produced from the search was each line that had an instance of the substring in the file of interest, wherein the output was redirected to a file called "grep-results.txt".
 
 <br>
 
