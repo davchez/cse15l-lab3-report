@@ -8,7 +8,7 @@
 ![Image](screenshot1.jpg)
 ![Image](screenshot2.jpg)
 
-[Additional grep documentation on -R](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Used find to first redirect all titles of files into a single text file called "results.txt".  In Example  A, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Italy."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Italy".
+[Additional grep documentation](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Used find to first redirect all titles of files into a single text file called "results.txt".  In Example  A, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Italy."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Italy".
   
 #### Example B
 ![Image](screenshot3.jpg)
@@ -36,7 +36,7 @@ For Example D, the substring "Italy" was recursively searched for in all files i
 #### Example E
 ![Image](screenshot6.jpg)
 
-The -l extension to the grep command allows for a simplification of the results produced by any grep search.  In Example D, we used the -r extension to recursively search for every file containing at least one instance of the substring "Italy"; however, the terminal was flooded with information that is ultimately unnecessary for finding the title of the file containing an instance of a substring, as it also returned the sentence in which it first appeared.  In this Example E, the -l extension removes the clutter, only returning the title of the files which contain at least one instance of "Italy".  Here, it is much more clear how many and what files contain "Italy" in its contents.
+[Additional grep documentation on l](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  The -l extension to the grep command allows for a simplification of the results produced by any grep search.  In Example D, we used the -r extension to recursively search for every file containing at least one instance of the substring "Italy"; however, the terminal was flooded with information that is ultimately unnecessary for finding the title of the file containing an instance of a substring, as it also returned the sentence in which it first appeared.  In this Example E, the -l extension removes the clutter, only returning the title of the files which contain at least one instance of "Italy".  Here, it is much more clear how many and what files contain "Italy" in its contents.
   
 #### Example F
 ![Image](screenshot7.jpg)
