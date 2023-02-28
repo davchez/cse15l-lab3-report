@@ -12,7 +12,7 @@
 #### Example B
 ![Image](labreplacement2.png)
   
-grep -E -w was used to find all instances of a substring in a given text file.  For Example B, the substring "Oahu" was searched for in the specific text file HandRHawaii.txt.  Produced from the search was each line that had an instance of the substring in the file of interest, wherein the output was redirected to a file called "grep-results.txt".
+[Additional grep documentation on -E -w](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  grep -E -w was used to find all instances of a substring in a given text file.  For Example B, the substring "Lake District" was searched for in the specific text file HandRLakeDistrict.txt.  Produced from the search was each line that had an instance of the substring in the file of interest, wherein the output was redirected to a file called "grep-results.txt".
 
 <br>
 
@@ -26,7 +26,7 @@ grep -E -w was used to find all instances of a substring in a given text file.  
 #### Example D
 ![Image](screenshot5.jpg)
 
-For Example D, the substring "Italy" was recursively searched for in all files in written_2/.  As seen in the terminal, the output returned a large amount of files which had lines containing the substring "Italy".  On the left side is the title of the file which contained the substring "Italy"; on the right side of the title is the specific string containing "Italy".  
+[Additional grep documentation on -R](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  For Example D, the substring "Italy" was recursively searched for in all files in written_2/.  As seen in the terminal, the output returned a large amount of files which had lines containing the substring "Italy".  On the left side is the title of the file which contained the substring "Italy"; on the right side of the title is the specific string containing "Italy".  
 
 <br>
 
@@ -40,7 +40,7 @@ For Example D, the substring "Italy" was recursively searched for in all files i
 #### Example F
 ![Image](screenshot7.jpg)
   
-The -l extension to the grep command allows for a simplification of the results produced by any grep search.  This Example F employs the same -R -l combination as Example E, just using a more specific substring to return two files containing the instance(s) of "The United States".  For smaller and more niche results like this, it might be redundant to use the -l extension for so few files.  However, it still produces the exact first instance of the substring: so it may prove to be useful in the end for certain uses.
+[Additional grep documentation on l](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  The -l extension to the grep command allows for a simplification of the results produced by any grep search.  This Example F employs the same -R -l combination as Example E, just using a more specific substring to return two files containing the instance(s) of "The United States".  For smaller and more niche results like this, it might be redundant to use the -l extension for so few files.  However, it still produces the exact first instance of the substring: so it may prove to be useful in the end for certain uses.
 
 <br>
 
