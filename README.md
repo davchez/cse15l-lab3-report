@@ -6,12 +6,11 @@
 
 #### Example A
 ![Image](labreplacement.png)
-![Image](labreplacement2.png)
 
 [Additional grep documentation on -E -w](https://www.cyberciti.biz/faq/grep-in-bash/#:~:text=How%20do%20I%20use,display%20those%20line%20on%20screen).  Used to find all instances of a substring in a given text file.  For Example A, the substring 
   
 #### Example B
-![Image](screenshot3.jpg)
+![Image](labreplacement2.png)
   
 In Example B, grep was used to parse through every single line in the results.txt text file to find any line with the substring "Bahamas."  The pictures above show the outputted results of that search being copied into a text file called "grep-results.txt", containing the titles of the 4 files in written_2/ containing the substring "Bahamas".
 
